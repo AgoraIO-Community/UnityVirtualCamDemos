@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5086,7 +5086,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 103
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -5226,7 +5226,7 @@ PrefabInstance:
     - target: {fileID: 3451075828767068167, guid: dfad2026cb0be4580986680a0b36f34c,
         type: 3}
       propertyPath: AppID
-      value: YOUR_APP_ID
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3451075828767068167, guid: dfad2026cb0be4580986680a0b36f34c,
         type: 3}
@@ -5236,8 +5236,13 @@ PrefabInstance:
     - target: {fileID: 3451075828767068167, guid: dfad2026cb0be4580986680a0b36f34c,
         type: 3}
       propertyPath: mirrorMode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3451075828767068167, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: RemoteScreenVideoRoot
+      value: 
+      objectReference: {fileID: 845185102}
     - target: {fileID: 6164900976137857845, guid: dfad2026cb0be4580986680a0b36f34c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5305,6 +5310,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfad2026cb0be4580986680a0b36f34c, type: 3}
+--- !u!1 &845185102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7642934463863656019, guid: dfad2026cb0be4580986680a0b36f34c,
+    type: 3}
+  m_PrefabInstance: {fileID: 845185096}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
