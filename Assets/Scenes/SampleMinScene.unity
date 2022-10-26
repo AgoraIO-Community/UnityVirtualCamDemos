@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.5748249, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5094,7 +5094,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 1ffa83d43bdc7b441a55b281658e07e9, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 629ad7b5bd571417a93a259ff86fd061, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -5243,6 +5243,41 @@ PrefabInstance:
       propertyPath: RemoteScreenVideoRoot
       value: 
       objectReference: {fileID: 845185102}
+    - target: {fileID: 4822117441868476517, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: AppID
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822117441868476517, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: LogText
+      value: 
+      objectReference: {fileID: 845185103}
+    - target: {fileID: 4822117441868476517, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: VirtualCam
+      value: 
+      objectReference: {fileID: 361005497}
+    - target: {fileID: 4822117441868476517, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: ChannelName
+      value: unity3d
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822117441868476517, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: UseTokenClient
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822117441868476517, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: RemoteVideoRoot
+      value: 
+      objectReference: {fileID: 845185104}
+    - target: {fileID: 4822117441868476517, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: RemoteScreenVideoRoot
+      value: 
+      objectReference: {fileID: 845185102}
     - target: {fileID: 6164900976137857845, guid: dfad2026cb0be4580986680a0b36f34c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5303,16 +5338,84 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7323109836649495970, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: serverURL
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7323109836649495970, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: ExpirationSecs
+      value: 3600
+      objectReference: {fileID: 0}
     - target: {fileID: 7642934464108430622, guid: dfad2026cb0be4580986680a0b36f34c,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642934464379312415, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1353011253}
+    - target: {fileID: 7642934464379312415, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleMic
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642934464606261226, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1353011253}
+    - target: {fileID: 7642934464606261226, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: JoinChannel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642934465172989075, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1353011253}
+    - target: {fileID: 7642934465172989075, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ExitApp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642934465298069799, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1353011253}
+    - target: {fileID: 7642934465298069799, guid: dfad2026cb0be4580986680a0b36f34c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LeaveChannel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfad2026cb0be4580986680a0b36f34c, type: 3}
 --- !u!1 &845185102 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7642934463863656019, guid: dfad2026cb0be4580986680a0b36f34c,
+    type: 3}
+  m_PrefabInstance: {fileID: 845185096}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &845185103 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7642934464822650931, guid: dfad2026cb0be4580986680a0b36f34c,
+    type: 3}
+  m_PrefabInstance: {fileID: 845185096}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &845185104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7642934464549439214, guid: dfad2026cb0be4580986680a0b36f34c,
     type: 3}
   m_PrefabInstance: {fileID: 845185096}
   m_PrefabAsset: {fileID: 0}
@@ -5492,3 +5595,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1353011253 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4822117441868476517, guid: dfad2026cb0be4580986680a0b36f34c,
+    type: 3}
+  m_PrefabInstance: {fileID: 845185096}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9acf110528a64e799c152f25189fe76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
